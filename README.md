@@ -11,12 +11,23 @@ I learner about
 
 
 Day 002
-Learned about 
-    Data Types
-    Numbers
-    Operations
-    Type Conversion
-    F String
+Learned about -
+    Data Types,
+    Numbers,
+    Operations.
+    Type Conversion,
+    F String,
 
 Day 003
+learned about - 
+    Conditional statements,
+    logical operators,
+    code blocks,
+    scope
+
+
+Day 004 
+learned about - 
+    randomization,
+    lists,
 
