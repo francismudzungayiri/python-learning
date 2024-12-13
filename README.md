@@ -31,3 +31,18 @@ learned about -
     randomization,
     lists,
 
+Day 005
+learned about - 
+    For loops,
+    range,
+    code blocks
+
+Day 006
+learned about - 
+    while loop,
+    code blocks,
+    functions, 
+    lambda functions
+
+Day 007 
+learned about -
