@@ -46,3 +46,4 @@ learned about -
 
 Day 007 
 learned about -
+    hang man project (which compride of everything we learned before)
