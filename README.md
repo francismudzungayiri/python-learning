@@ -47,3 +47,14 @@ learned about -
 Day 007 
 learned about -
     hang man project (which compride of everything we learned before)
+
+Day 008
+laerned about - 
+    functions with inputs
+    arguements or parameters
+    
+
+Day 009
+learned about - 
+    dictionaries
+    nested lists or dictionaries
