@@ -52,9 +52,13 @@ Day 008
 laerned about - 
     functions with inputs
     arguements or parameters
-    
+
 
 Day 009
 learned about - 
     dictionaries
     nested lists or dictionaries
+
+Day 010
+learned about - 
+    functions with outputs
