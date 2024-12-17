@@ -3,7 +3,7 @@ import random
 print('WELCOME TO BLACKJACK GAME. \n\n')
 
 cards = [11,2,3,4,5,6,7,8,9,10,10,10,10]
-bank = 1000;
+bank = 1000
 computer = []
 my_cards = []
 
@@ -26,20 +26,36 @@ def score_sum(card_score):
             total += value
     
     return total
+
+def get_deal():
+    computer.append(getCard())
+    my_cards.append(getCard())
+    
+    comp_total = score_sum(computer)
+    user_total = score_sum(my_cards)
+    
+    return comp_total, user_total
     
 
 
-def hit_deal(response):
-    comp_total = 0
-    user_total = 0
-    if response =='hit':
-        computer.append(getCard())
-        comp_total = score_sum(computer)
-        user_total = score_sum(my_cards)
-        
-    if user_total > comp_total:
+def hit_deal():
+    computer.append(getCard())
+    comp_total = score_sum(computer)
+    user_total = score_sum(my_cards)
+    
+    return comp_total, user_total        
+
+
+def find_winner(user_total, comp_total):
+    if user_total > 21 or comp_total > 21:
+        if comp_total > 21:
+            print('YOU WIN')
+        else:
+            print('YOU LOSE')
+    
+    elif user_total > comp_total:
         print('YOU WIN')
-    
+
     elif user_total == comp_total:
         print('THATS A DRAW ')
         
@@ -47,12 +63,9 @@ def hit_deal(response):
         print('YOU LOSE')
     
     print(f'DEALER CARDS ARE  {computer}')
-    print(user_total, comp_total)        
-        
+    print(user_total, comp_total)
     
-    
-    
-    
+       
 plays = input('DO YOU WANT TO PLAY THE: type \n yes or no : ')
 if plays =='no':
     print('GOODBYE')
@@ -64,5 +77,10 @@ else:
     print(f'DEALER CARDS ARE: {computer}')
     
     #hit or deal 
-    stop_game = input('tpye hit to stop or deal to continue')
-    hit_deal(stop_game)
+    stop_game = input('tpye hit to stop or deal to continue \n')
+    if stop_game == 'hit':
+        comp, human = hit_deal()
+        find_winner(human, comp)
+    else:
+        comp, human = get_deal()
+        find_winner(human, comp)
