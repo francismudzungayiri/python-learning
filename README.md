@@ -65,3 +65,11 @@ learned about -
 
 
 Day  011 - capstone project (blackjack)
+
+Day 012 
+learned about - 
+    Namespaces (local vs global scope)
+
+Day 013 
+learned about - 
+    Debugging
