@@ -73,3 +73,13 @@ learned about -
 Day 013 
 learned about - 
     Debugging
+
+Day 014  - higher or lower game 
+    this where the begginer concepts ends
+
+Day 015 
+Learned about 
+    Object Oriented Programming
+        Objects
+        methods
+        attributes
