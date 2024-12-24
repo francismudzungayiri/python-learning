@@ -83,3 +83,27 @@ Learned about
         Objects
         methods
         attributes
+
+Day 016 
+learned about - 
+    OOP Continuation
+
+Day 017 
+learned about -
+    OOP 
+
+Day 018 
+learned about - 
+    Turtle graphics
+    Tuples
+    Importing modules
+
+
+Day 019
+learned about - 
+    More Turtle Graphics
+    High order functions
+    Event Listiners
+    States
+    Multiple instances
+
