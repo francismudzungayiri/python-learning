@@ -107,3 +107,9 @@ learned about -
     States
     Multiple instances
 
+Day 020 
+Building a snake game - 
+    Creating the snake body
+    Snake movement
+    Controlling the snake
+
