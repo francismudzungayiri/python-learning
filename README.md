@@ -113,3 +113,10 @@ Building a snake game -
     Snake movement
     Controlling the snake
 
+
+
+Day 021
+Continued building a snake game 
+    class inheritance
+    foor collision 
+    wall collision
