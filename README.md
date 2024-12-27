@@ -120,3 +120,7 @@ Continued building a snake game
     class inheritance
     foor collision 
     wall collision
+
+
+Day 022
+Building a Pong game
