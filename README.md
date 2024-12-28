@@ -124,3 +124,6 @@ Continued building a snake game
 
 Day 022
 Building a Pong game
+
+Day 023
+Capstone Project - Turtle crossing game
