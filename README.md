@@ -127,3 +127,9 @@ Building a Pong game
 
 Day 023
 Capstone Project - Turtle crossing game
+
+Day 024 
+learned about -
+    Files
+    Directories
+    Paths
