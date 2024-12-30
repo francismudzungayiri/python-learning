@@ -50,13 +50,13 @@ learned about -
 
 Day 008
 laerned about - 
-    functions with inputs
+    functions with inputs,
     arguements or parameters
 
 
 Day 009
 learned about - 
-    dictionaries
+    dictionaries,
     nested lists or dictionaries
 
 Day 010
@@ -78,10 +78,10 @@ Day 014  - higher or lower game
     this where the begginer concepts ends
 
 Day 015 
-Learned about 
-    Object Oriented Programming
-        Objects
-        methods
+Learned about -
+    Object Oriented Programming,
+        Objects,
+        methods,
         attributes
 
 Day 016 
@@ -94,32 +94,32 @@ learned about -
 
 Day 018 
 learned about - 
-    Turtle graphics
-    Tuples
+    Turtle graphics,
+    Tuples,
     Importing modules
 
 
 Day 019
 learned about - 
-    More Turtle Graphics
-    High order functions
-    Event Listiners
-    States
+    More Turtle Graphics,
+    High order functions,
+    Event Listiners,
+    States,
     Multiple instances
 
 Day 020 
 Building a snake game - 
-    Creating the snake body
-    Snake movement
-    Controlling the snake
+    Creating the snake body,
+    Snake movement,
+    Controlling the snake,
 
 
 
 Day 021
-Continued building a snake game 
-    class inheritance
-    foor collision 
-    wall collision
+Continued building a snake game - 
+    class inheritance,
+    foor collision ,
+    wall collision,
 
 
 Day 022
@@ -130,6 +130,13 @@ Capstone Project - Turtle crossing game
 
 Day 024 
 learned about -
-    Files
-    Directories
+    Files,
+    Directories,
     Paths
+
+
+Day 025 
+learned aboout - 
+    Working with csv data,
+    Pandas Library
+    Analysing Data with Pandas
