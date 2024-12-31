@@ -27,6 +27,9 @@ while len(guesed_states) < 50:
 
 
     if answer == 'exit':
+        missing_states = [state for state in states if state not in guesed_states]
+        new_Data = pd.DataFrame(missing_states)
+        new_Data.to_csv('day 025/states-to-learn.csv')
         break
     
     

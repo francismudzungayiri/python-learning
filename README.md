@@ -140,3 +140,8 @@ learned aboout -
     Working with csv data,
     Pandas Library
     Analysing Data with Pandas
+
+Day 026
+learned about -
+    List comprehension
+    dictionary comprehension
