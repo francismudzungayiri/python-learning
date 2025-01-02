@@ -145,3 +145,8 @@ Day 026
 learned about -
     List comprehension
     dictionary comprehension
+
+Day 027 
+learned about - 
+    GUI with tkinter
+    advances function arguements
