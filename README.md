@@ -149,4 +149,11 @@ learned about -
 Day 027 
 learned about - 
     GUI with tkinter
-    advances function arguements
+    advances function 
+    
+
+Day 028
+built a Pomodoro app
+
+Day 029
+ss
