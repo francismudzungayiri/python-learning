@@ -1,5 +1,6 @@
 from tkinter import *
 from tkinter import messagebox
+import json
 
 
 
@@ -9,6 +10,13 @@ def save():
     website = website_entry.get()
     email = email_entry.get()
     password = password_entry.get()
+    
+    new_data = {
+        website:{
+            'email':email,
+            'password':password
+        },
+    }
 
     is_ok = messagebox.askokcancel(title='Website', message= f'These are the details entered. \nEMAIL: {email} \nPassword: {password}'
                            f'\n\n Is it ok to save.')
@@ -18,9 +26,25 @@ def save():
         
     else:
         if is_ok:
-            with open('data.txt', 'a') as data_file:
-                data_file.write(f'{website}  |  {email}  |  {password}\n ')
-                website_entry.delete(0, END)
+            try:
+                with open('data.json', 'r') as data_file:
+                    #reading data from json
+                    data = json.load(data_file)
+                    
+            except FileNotFoundError:
+                with open('data.json', 'w') as data_file:        
+                    #updating old data with the new data
+                    json.dump(new_data, data_file, indent=4)
+                    
+            else:
+                #saving updated data
+                data.update(new_data)
+                
+                with open('data.json', 'w') as data_file:
+                    json.dump(new_data, data_file, indent=4)
+                    
+            finally:
+                website_entry .delete(0, END)
                 password_entry.delete(0, END)
 
 
@@ -64,7 +88,19 @@ print(final_pssword)
 
 def get_password():
     password_entry.insert(0, final_pssword)
-
+    
+    
+    
+def find_password():
+    website = website_entry.get()
+    
+    with open('data.json', 'r') as data_file:
+        data = json.load(data_file)
+        
+        for i in data[website]:
+            print(i)
+            
+            
 
 
 
@@ -110,6 +146,8 @@ generate_password.grid(row=3, column=2)
 add_button = Button(text='ADD', width=36, command=save)
 add_button.grid(row=4, column=1)
 
+search_button = Button(text='Search', width=10, command=find_password)
+search_button.grid(column=2, row=1)
 
 
 

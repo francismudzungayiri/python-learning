@@ -156,4 +156,15 @@ Day 028
 built a Pomodoro app
 
 Day 029
-ss
+build a passwor manager
+    learned about 
+        dialog boxes
+        grid systems
+        looked at files again
+
+
+Day 030
+Learned about 
+    Error handling
+    Exception
+    Saving Json Data
