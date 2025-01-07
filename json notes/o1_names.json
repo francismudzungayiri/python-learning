@@ -1,0 +1,16 @@
+{
+    "name":[
+        {
+            "firstname":"Francis",
+            "age":28
+        },
+        {
+            "firstname":"Jim",
+            "age":38
+        },
+        {
+            "firstname":"Tinashe",
+            "age": 35
+        }
+    ]
+}
