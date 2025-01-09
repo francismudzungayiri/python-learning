@@ -168,3 +168,13 @@ Learned about
     Error handling
     Exception
     Saving Json Data
+
+
+Day 031
+Learned about
+    sending emails using python
+    datetime module
+
+day 032
+learned about
+    external APIs

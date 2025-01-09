@@ -5,7 +5,7 @@ subject = input('Enter email subject \n')
 message = input('Enter your message \n')
 
 my_email = 'fmudzungayiri97@gmail.com'
-password = 'less secure password'
+password = 'phaqfsxcyrlnhhxk'
 
 
 text = f"Subject:{subject} \n\n {message}"

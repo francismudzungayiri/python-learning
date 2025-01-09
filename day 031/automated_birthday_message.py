@@ -10,7 +10,7 @@ now_month = now.month
 now_day = now.day
 
 my_email = 'fmudzungayiri97@gmail.com'
-my_password = 'your_less_strict_passwod'
+my_password = 'less secure password'
 
 letters = ['letter_1.txt', 'letter_2.txt','letter_3.txt']
 choosen_letter = random.choice(letters)
