@@ -178,3 +178,16 @@ Learned about
 day 032
 learned about
     external APIs
+
+
+Day 033 
+looked at 
+    OOP in detail
+
+
+Day 034
+learned about 
+    API Keys,
+    Authentication
+    Environment Variables
+    Sending SMS
