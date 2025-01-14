@@ -1,7 +1,7 @@
 import smtplib
 
 my_email = 'fmudzungayiri97@gmail.com'
-password = 'phaqfsxcyrlnhhxk'
+password = 'less secure pass'
 
 
 smtp = smtplib.SMTP('smtp.gmail.com', 587)

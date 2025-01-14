@@ -191,3 +191,7 @@ learned about
     Authentication
     Environment Variables
     Sending SMS
+
+Day 035 
+learned about
+    Build a stock trackimg system.
