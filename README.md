@@ -200,3 +200,15 @@ learned about
 
 Day 036
 Build  a word counter 
+
+Day 037
+learned about 
+    Python DateTime strftime()
+    APIs and making POST Requests
+    Authorization headers
+    Environment Variables
+
+
+
+
+    
