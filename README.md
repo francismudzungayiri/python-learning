@@ -209,6 +209,14 @@ learned about
     Environment Variables
 
 
+Day 038
+I built an console banking app
+
+Day 039
+learned about 
+    Web scrapping using beautiful soup
+
+
 
 
     
