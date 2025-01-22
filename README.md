@@ -216,6 +216,18 @@ Day 039
 learned about 
     Web scrapping using beautiful soup
 
+Day 040
+Build an amazon price tracker 
+
+Day 041 
+learned about 
+    web automation using selenium
+    Build a cookie playing bot
+
+
+Day 042
+build a 
+    Job application automation
 
 
 
