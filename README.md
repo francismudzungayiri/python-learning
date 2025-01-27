@@ -230,5 +230,11 @@ build a
     Job application automation
 
 
+Day 046
+learned about
+    URL building
+    templating with jinja
+
+
 
     
