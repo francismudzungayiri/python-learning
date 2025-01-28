@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 046 | Blog</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <nav>
+        <a>Blog</a>
+        <a href="#">+</a>
+    </nav>
+    <h1>What are you working today?</h1>
+    <div class="post">
+        <form action="/add" method="POST">
+            <div class="post-wrapper">
+                <input type="text" name="title" id="title" placeholder="Title">
+                <input type="text" name="subtitle" id="subtitle" placeholder="Subtitle">
+                <textarea name="post_body" id="" placeholder="What are you working on ....."></textarea>
+                <input type="submit" value="POST">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
+</html>
