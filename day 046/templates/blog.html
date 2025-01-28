@@ -4,15 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Day 046 | Blog</title>
+    <link rel="stylesheet" href="../static/style.css">
 </head>
 <body>
-    <h1>Blog from npoint API</h1>
+    <nav>
+        <h1>Blog</h1>
+    </nav>
+    <div class="post">
+        {% for blogpost in all_posts: %}
+            <div class="post-wrapper">
+                <h4>{{ blogpost['title']}}</h4>
+                <p>{{  blogpost['subtitle'] }}</p>
+                <a href="{{  url_for('read_blog', num = blogpost['id'] ) }}">Read</a>
+            </div>
+        {% endfor %}
 
-    {% for blogpost in all_posts: %}
-        <h4>{{ blogpost['title']}}</h4>
-        <p>{{  blogpost['body'] }}</p>
-        <hr>
-
-    {% endfor %}
+    </div>
 </body>
 </html>

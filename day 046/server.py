@@ -44,6 +44,21 @@ def blog():
 
 
 
+@app.route('/blogs/<int:num>')
+def read_blog(num):
+    
+    url = 'https://api.npoint.io/c790b4d5cab58020d391'
+    response = requests.get(url)
+    all_posts = response.json()
+    
+    post = all_posts[num-1]
+
+    return render_template('read_blog.html', blogpost = post)
+
+
+
+
+
 
 
 if __name__ == 'main':
