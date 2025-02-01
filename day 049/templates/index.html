@@ -1,17 +1,6 @@
 {%  extends "layouts/header.html"  %}
 {% block main_content %}
-<section class="dates">
-    {% for date in dates_range(selected_date) %}
-        <a href="{{ url_for('index', date =date) }}" 
-            class="dates_link {{ 'dates_link_current' if loop.index0 == 3 else '' }}"
-        >
-            <time class="date" date="{{ date }}">
-                <span>{{ date.strftime("%a")}}</span>
-                <span>{{ date.strftime("%d")}}</span>
-            </time> 
-        </a>
-    {% endfor %}
-</section>
+
 <section class="habit_list">
     {% for habit in habits %}
         <div class="habit"> 

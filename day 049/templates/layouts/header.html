@@ -18,7 +18,7 @@
     <main class="main">
 
         <section class="dates">
-            {% for date in dates_range(selected_date) %}
+            {% for date in date_range(selected_date) %}
                 <a href="{{ url_for('index', date =date) }}" 
                     class="dates_link {{ 'dates_link_current' if loop.index0 == 3 else '' }}"
                 >

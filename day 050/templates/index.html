@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY 050 | Contact Form</title>
+    <link rel="stylesheet" href="../static/css/main.css">
+</head>
+<body>
+    <input type="checkbox" name="showForm" id="showForm" class="showForm">
+
+    <div class="form">
+    <h2>Contact Us</h2>
+    <form method="post">
+        <div class="left section">
+        <input type="text" name="name" placeholder="Your name" required>
+        <input type="email" name="email" placeholder="Your email" required>
+        <input type="text" name="subject" placeholder="Email suject" required>
+        </div>
+        <div class="right section">
+        <textarea name="comment" placeholder="Your comment" required></textarea>
+        </div>
+        <button type="submit" class="sendForm left">Send</button>
+        <label for="showForm" class="closeFormLabel left">Cancel</label>
+    </form>
+    </div>
+
+    <h1>CONTACT US </h1>
+
+    <label for="showForm" class="showFormLabel">Contact</label>
+        
+</body>
+</html>
