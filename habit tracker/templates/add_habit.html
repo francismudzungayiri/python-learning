@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block main_content %}
+
+<section>
+    <form action="{{ url_for('add_habit') }}" method="POST">
+        <textarea class="form_input" id="habit" name="habit" rows="4" placeholder="Add a new habit"></textarea>
+        <button type="submit"> ADD HABIT</button>
+    </form>
+</section>
+
+{%  endblock  %}
