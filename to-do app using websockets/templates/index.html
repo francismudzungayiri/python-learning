@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>To Do App</title>
+    <link rel="stylesheet" href="../static/css/output.css" />
+  </head>
+  <body class="p-5">
+    <h1 class="text-5xl font-bold">To Do App</h1>
+    <form id="myform" method="post">
+      {{ form.csrf_token }} {{ form.todo(id='task-input',class='border px-3 py-2
+      text-lg my-3') }} {{form.submit(class='bg-black text-white block px-5 py-2
+      rounded')}}
+    </form>
+
+    <ul id="todoList"></ul>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/4.0.1/socket.io.js"></script>
+    <script src="../static/js/main.js"></script>
+  </body>
+</html>
